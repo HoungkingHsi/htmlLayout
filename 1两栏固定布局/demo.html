@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两栏布局 右 with - http://www.indeex.cc</title>
+    <style>
+        html,body,div,h1,h2{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family:'楷体','micsoft YaHei';
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .wrapper{
+            width:960px;
+            background-color: aquamarine;
+            margin:0 auto;
+        }
+        header{
+            height:75px;
+            text-align: left;
+            background-color: indianred;
+            margin-bottom:5px;
+        }
+        aside{
+            width:200px;
+            height:600px;
+            background-color:antiquewhite;
+            float: right;
+            margin-bottom:5px;
+            margin-left:5px;
+        }
+        section{
+            width:755px;
+            height:600px;
+            background-color:fuchsia;
+            float: left;
+            margin-bottom:5px;
+        }
+        
+        footer{
+            clear: both;
+            height:30px;
+            margin-bottom:5px;
+        }
+
+    </style>
+
+    <!--<script src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>-->
+
+    <script src="js/html5.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <section>
+        <h2>Content</h2>
+    </section>
+    <aside>
+        <h2>Aside</h2>
+    </aside>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</div>
+</body>
+</html>

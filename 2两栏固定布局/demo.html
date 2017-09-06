@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两栏布局 右 with indeex - http://www.indeex.cc</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family:'Comic Sans MS','楷体';
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .container:after,.container:before{
+            content: '';
+            display: table;
+        }
+
+        .container{
+            width: 960px;
+            margin:0 auto;
+            background-color: indianred;
+        }
+
+        header{
+            text-align: left;
+            margin-bottom:15px;
+            background-color: mediumaquamarine;
+        }
+
+        .sidebar{
+            width: 220px;
+            height:600px;
+            float: right;
+            margin-bottom:15px;
+            background-color: fuchsia;
+            text-align: left;
+        }
+
+        .main-content{
+            text-align: left;
+            width: 720px;
+            height: 600px;
+            margin-right:20px;
+            float: left;
+            background-color: gainsboro;
+        }
+
+        footer{
+            height: 30px;
+            background-color: yellow;
+        }
+
+        header .container{
+            height: 75px;
+        }
+
+        footer .container{
+            margin-top:15px;
+        }
+    </style>
+    <script src="js/html5.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h2>Header H2</h2>
+        <p>Header P</p>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <div class="main-content">Main Content</div>
+        <div class="sidebar">Sidebar</div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        Footer
+    </div>
+</footer>
+</body>
+</html>

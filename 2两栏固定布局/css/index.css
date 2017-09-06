@@ -1,0 +1,68 @@
+/*
+  * Author: indeex
+  * Email: indeex@qq.com
+  * Website: http://www.indeex.cc
+  * Time: 2017-9-6 13:52:00
+*/
+
+
+html,body,div,h1,h2,p{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    text-align: center;
+    background-color: #f1f1f1;
+    font-family:'Monaco','Comic Sans MS','楷体';
+}
+
+.container:after,.container:before{
+    content: '';
+    display: table;
+}
+
+.container{
+    width: 960px;
+    margin:0 auto;
+    text-align: left;
+    zoom: 1;
+    background-color: aqua;
+}
+
+.header{
+    background-color:antiquewhite;
+    color: #fff;
+    margin-bottom:15px;
+}
+
+.sidebar{
+    width:220px;
+    height: 350px;
+    float: left;
+    background-color: olive;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.main-content{
+    width: 720px;
+    height: 350px;
+    float: right;
+    background-color: fuchsia;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.footer{
+    background-color: bisque;
+    color: darkviolet;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header .container{
+    height:75px;
+    background-color: indigo;
+}
+
+.footer .container{
+    margin-top:15px;
+    background-color: mediumblue;
+}

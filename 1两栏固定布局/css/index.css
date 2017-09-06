@@ -1,0 +1,60 @@
+/*
+  * Author: indeex
+  * Email: indeex@qq.com
+  * Website: http://www.indeex.cc
+  * Time: 2017-9-6 13:52:00
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Comic Sans MS', '楷体';
+    background: url(../assets/bg_body.png) repeat;
+    text-align: center;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: darkcyan;
+}
+
+.header{
+    margin-bottom: 5px;
+    height: 75px;
+    background-color: azure;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,.2);
+}
+
+.sidebar{
+    width: 220px;
+    height: 350px;
+    margin-right:20px;
+    display: inline; /*防止IE6双边局*/
+    float: left;
+    margin-bottom:5px;
+    background-color: aquamarine;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.main-content{
+    width: 720px;
+    height: 350px;
+    display: inline;
+    float: left;
+    margin-bottom:5px;
+    background-color: fuchsia;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,.2);
+}
+
+.footer{
+    clear: both;
+    background-color: olivedrab;
+    margin-bottom:5px;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.5);
+}
